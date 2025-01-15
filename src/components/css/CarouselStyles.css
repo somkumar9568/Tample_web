@@ -1,0 +1,19 @@
+.custom-carousel {
+    height: 100%; 
+  }
+  
+  .custom-carousel .carousel-item {
+    height: 100%; 
+  }
+  
+  .custom-carousel-image {
+    height: 40vh; 
+    object-fit: cover; 
+  }
+  
+  .custom-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

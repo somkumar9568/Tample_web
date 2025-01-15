@@ -1,0 +1,60 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible layout */
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Media Queries for Better Responsiveness */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust columns for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Single column for small screens */
+  }
+
+  .card {
+    max-width: 100%; /* Utilize full width */
+  }
+
+  .card-name {
+    font-size: 1em; /* Slightly smaller text */
+  }
+}

@@ -1,0 +1,77 @@
+/* CSS */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px; /* Ensures responsiveness */
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px; /* Improved font size for better readability */
+  }
+  
+  .footer-section p {
+    margin: 0 0 10px 0; /* Adds spacing below paragraphs */
+  }
+  
+  .footer-section ul {
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes extra margin */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    gap: 5px; /* Use gap to control spacing between list items */
+  }
+  
+  .footer-section ul li {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+    padding: 5px 0; /* Adds slight padding for better spacing */
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00bcd4; /* Changes color on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px; /* Add spacing between icons */
+    margin-top: 10px; /* Optional spacing from the section */
+  }
+  
+  .social-icons a {
+    color: #ffffff; /* Icon color */
+    font-size: 20px; /* Icon size */
+    text-decoration: none; /* Removes underline for links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .social-icons a:hover {
+    color: #00bcd4; /* Hover color for icons */
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    color: #bbbbbb;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info strong {
+    color: #ffffff;
+  }
